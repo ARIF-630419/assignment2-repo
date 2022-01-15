@@ -19,7 +19,7 @@ body{
 
 /* influencer style  */
 .influencer{
-    margin: 100px 100px;
+    margin: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -183,4 +183,39 @@ margin-left: 119px;
 }
 
  /* media query */
-/* media query for mobile */
+/* media query for mobiles */
+@media only screen and (max-width:688px) {
+    .header-title{
+        text-align: center;
+    }
+    .influencer, .collections{
+        grid-template-columns: 1fr;
+        margin: 20px;
+        text-align: center;
+        
+        
+    }
+    .influencer-banner{
+        margin-left: 0;
+        margin-top: 100px;
+        
+    }
+    .relative{
+        position: relative;
+        left: 100px;
+        text-decoration: none;
+        padding: 15px 40px;
+        border-radius: 41px;
+        color: rgba(224, 44, 109, 0.87);
+        font-size: 16px;
+        font-weight: bold;
+        
+    }
+    .relative i{
+        color: rgba(224, 44, 109, 0.87);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+  }
+  /* media query for Tablets */
