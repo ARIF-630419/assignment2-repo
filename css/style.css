@@ -19,7 +19,7 @@ body{
 
 /* influencer style  */
 .influencer{
-    margin: 50px 100px;
+    margin: 100px 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -54,4 +54,72 @@ margin-top: 10px;
 }
 .influencer-banner{
 margin-left: 119px;
+}
+
+/* popular collection */
+.popular-collection{
+    width: 85%;
+    margin: 0 auto;
+
+    
+}
+.collections{
+    background-color: rgba(170, 170, 170, .1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    padding: 15px;
+    margin: 50px;
+  
+}
+.collection{
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 5px;
+}
+.image img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+.title{
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191F;
+
+}
+.price{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.rating{
+    color: #FB8200;
+}
+.rating span{
+   color:#5E6366;
+}
+.comment{
+    color: #787885;
+}
+
+/* footer style  */
+.footer{
+    background-color: #0A0826;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.copy{
+    font-size: 14px;
+    font-weight: bold;
+    color: #D9DBE1;
+    text-align: center;
 }
