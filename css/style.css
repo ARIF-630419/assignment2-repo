@@ -151,7 +151,7 @@ margin-left: 119px;
     align-items: center;
     padding: 20px;
 }
-.title{
+.footer-title{
     font-size: 24px;
     font-weight: 700;
     color: #FFFFFF;
@@ -182,3 +182,5 @@ margin-left: 119px;
    border-radius: 50%;
 }
 
+ /* media query */
+/* media query for mobile */
